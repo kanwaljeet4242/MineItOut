@@ -1,1 +1,1 @@
-# Snake-Game-C-
+# Mine It Out Game in C
