@@ -2,7 +2,7 @@
 # make        # compile all binary
 # make clean  # remove ALL binaries and objects
 
-LIBS = -lopengl32 -lglew32 -lfreeglut -lglu32 -lglfw3
+LIBS = -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
 
 SOURCES=$(wildcard *.cpp)
 HEADERS=$(wildcard *.hpp)
